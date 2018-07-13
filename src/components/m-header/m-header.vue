@@ -1,7 +1,10 @@
 <template>
   <div class="m-header">
     <div class="icon"></div>
-    <div class="text">QQ 音乐</div>
+    <h1 class="text">QQ 音九</h1>
+    <router-link to="/user" class="mine" tag="div">
+        <i class="icon-mine"></i>
+    </router-link>
   </div>
 </template>
 <script>
